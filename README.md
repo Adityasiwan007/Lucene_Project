@@ -5,7 +5,9 @@
   1. Build maven package: mvn package
   2. Then Run: java -jar target/example3-1.2.jar //Available in target folder.
 
-# B. Results will be built in the Cran​ folder with name Query.results. D. Go to the ​Trec_eval-9.0.7​ folder in terminal:
+# B. Results will be built in the Cran​ folder with name Query.results. 
+
+# D. Go to the ​Trec_eval-9.0.7​ folder in terminal:
   1. Run the command: make
   2. Then Run: ./trec_eval test/Qrel.test ../cran/Query.results
 
